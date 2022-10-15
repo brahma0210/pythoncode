@@ -1,8 +1,9 @@
-from array import *
-val = array('i',[ ])
-n = int(input("enter the length of an array :"))
-print()
-for i in range(n):
-    x =int(input("enter the next array"))
-    val.append(x)
-print(val) 
+x = int(input("enter 1st :"))
+y =int(input("enter 2nd :"))
+z =int(input("enter 3rd :"))
+if x>y>z:
+    print("x is graet")
+elif y>x:
+    print("y is great")
+else:
+    print("z is greayt")
